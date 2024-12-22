@@ -366,6 +366,7 @@ main {
         left: 0;
         width: 50%;
         z-index: 100;
+        overflow-x: auto; 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
 
@@ -410,6 +411,9 @@ main {
         width: 90%;
     }
 
+    .sidebar{
+        max-width: 65%;
+    }
     .sidebar, .products {
         flex: 1;
     }
