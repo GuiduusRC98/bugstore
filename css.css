@@ -357,6 +357,7 @@ main {
         border: 1px solid #ddd;
         border-radius: 8px;
         margin-bottom: 10px;
+        max-width: 768px;
         overflow-x: auto; 
         position: relative; 
     }
@@ -366,6 +367,7 @@ main {
         top: 0px;
         left: 0;
         width: 100%;
+        max-width: 768px;
         z-index: 100;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
