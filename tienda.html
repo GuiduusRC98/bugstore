@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+            <img src="./assets/buggg-store-logos.png" alt="BugStore Logo">
+    </header>
+    
+    <main>
+        <section class="sidebar">
+            <aside class="categories">
+                <h3>Categorías</h3>
+                <ul id="category-list">
+                </ul>
+            </aside>
+        </section>
+        <section id="buscador" class="products">
+            <br>
+            <div id="product-list"></div>
+        </section>
+        <section class="sidebar">
+            <aside id="order">
+                <div id="cart">
+                    <h2>Carrito</h2>
+                    <div id="preview">
+                    </div>
+                </div>
+                <br>
+                <div class="input-group">
+                    <div class="input-group-item">
+                        <p>Nombre</p>
+                        <input type="text" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="input-group-item">
+                        <p>Número de contacto</p>
+                        <input type="text" placeholder="Tu número de contacto" required>
+                    </div>
+                    <div class="input-group-item">
+                        <p>Información adicional</p>
+                        <textarea placeholder="Detalles adicionales"></textarea>
+                    </div>
+                    <button id="send-order">Enviar Pedido</button>
+                </div>
+                <button id="view-cart">Ver Carrito</button>
+                <div class="popup-overlay" id="popup-overlay">
+                    <div class="popup">
+                      <h2>Carrito Vacío</h2>
+                      <p>No hay productos en el carrito.</p>
+                      <button id="close-popup">Cerrar</button>
+                    </div>
+                  </div>
+            </aside>
+        </section>
+    </main>
+    
+    <div id="toast-container"></div>
+    <script src="2script.js"></script>
+</body>
+</html>
