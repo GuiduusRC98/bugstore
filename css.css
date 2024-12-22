@@ -346,6 +346,9 @@ main {
 
 
 @media (max-width: 768px) {
+    header img {
+        max-width: 768px;
+    }
     .categories {
         background-color: #fff;
         padding: 10px;
